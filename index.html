@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Movies Collection</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(to bottom, #0d0d0d, #1a1a1a);
+    color: white;
+}
+
+header {
+    padding: 25px;
+    font-size: 30px;
+    font-weight: bold;
+    background: #111;
+    border-bottom: 3px solid #e50914;
+    text-align: center;
+}
+
+.container {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    background: #181818;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.8);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card img {
+    width: 220px;
+    object-fit: cover;
+}
+
+.info {
+    padding: 20px;
+}
+
+.info h2 {
+    margin-top: 0;
+    color: #e50914;
+}
+
+.info p {
+    margin: 6px 0;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.label {
+    font-weight: bold;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .card {
+        flex-direction: column;
+    }
+    .card img {
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<header>Best Movies & Series Collection</header>
+<div class="container">
+
+<!-- Wednesday -->
+<div class="card">
+<img src="https://image.tmdb.org/t/p/w500/9PFonBhy4cQy7Jz20NpMygczOkv.jpg">
+<div class="info">
+<h2>Wednesday (S1 & S2)</h2>
+<p><span class="label">Company:</span> MGM Television, Netflix</p>
+<p><span class="label">Producer:</span> Tim Burton, Alfred Gough, Miles Millar</p>
+<p><span class="label">Main Cast:</span> Jenna Ortega, Emma Myers, Catherine Zeta-Jones</p>
+<p><span class="label">Release:</span> 2022 – 2025</p>
+<p><span class="label">Note:</span> Dark mystery set at Nevermore Academy.</p>
+</div>
+</div>
+
+<!-- Stranger Things -->
+<div class="card">
+<img src="https://thumb.febbox.com/thumb_dGh1bWIvMDM3LzM1LzI0LzM3MzUyNDMyXzE0NjM0NThfdGh1bWJfYmlnLmpwZz90PTE3NzIwMDcyOTJ8MTAwMHw3NQ__.png">
+<div class="info">
+<h2>Stranger Things (S1–S5)</h2>
+<p><span class="label">Company:</span> Netflix, 21 Laps Entertainment</p>
+<p><span class="label">Producer:</span> The Duffer Brothers, Shawn Levy</p>
+<p><span class="label">Main Cast:</span> Millie Bobby Brown, Finn Wolfhard, David Harbour</p>
+<p><span class="label">Release:</span> 2016 – 2025</p>
+<p><span class="label">Note:</span> Supernatural events connected to the Upside Down.</p>
+</div>
+</div>
+
+<!-- Just Beyond -->
+<div class="card">
+<img src="https://thumb.febbox.com/thumb_dGh1bWIvMDM3LzM1LzE2LzM3MzUxNjQyXzE0NjM0NThfdGh1bWJfYmlnLmpwZz90PTE3NzIwMDY5MjR8MTAwMHw3NQ__.png">
+<div class="info">
+<h2>Just Beyond (S1)</h2>
+<p><span class="label">Company:</span> Disney+</p>
+<p><span class="label">Producer:</span> Seth Grahame-Smith</p>
+<p><span class="label">Main Cast:</span> Anthology cast including Mckenna Grace, Lexi Underwood, Cedric Joe</p>
+<p><span class="label">Release:</span> 2021</p>
+<p><span class="label">Note:</span> Supernatural anthology based on graphic novels.</p>
+</div>
+</div>
+
+<!-- Princess Diaries -->
+<div class="card">
+<img src="https://thumb.febbox.com/thumb_dGh1bWIvMDM3LzM0Lzc2LzM3MzQ3NjkyXzE0NjM0NThfdGh1bWJfYmlnLmpwZz90PTE3NzIwMDQ1ODR8MTAwMHw3NQ__.png">
+<div class="info">
+<h2>The Princess Diaries (1 & 2)</h2>
+<p><span class="label">Company:</span> Walt Disney Pictures</p>
+<p><span class="label">Producer:</span> Debra Martin Chase, Whitney Houston</p>
+<p><span class="label">Main Cast:</span> Anne Hathaway, Julie Andrews</p>
+<p><span class="label">Release:</span> 2001 – 2004</p>
+<p><span class="label">Note:</span> Teen discovers she is heir to a royal throne.</p>
+</div>
+</div>
+
+<!-- Dexter Original -->
+<div class="card">
+<img src="https://image.tmdb.org/t/p/w500/q8dWfc4JwQuv3HayIZeO84jAXED.jpg">
+<div class="info">
+<h2>Dexter (Original Series S1–S8)</h2>
+<p><span class="label">Company:</span> Showtime Networks</p>
+<p><span class="label">Producer:</span> Clyde Phillips</p>
+<p><span class="label">Main Cast:</span> Michael C. Hall, Jennifer Carpenter</p>
+<p><span class="label">Release:</span> 2006 – 2013</p>
+<p><span class="label">Note:</span> Forensic analyst with a secret life as a vigilante killer.</p>
+</div>
+</div>
+
+<!-- Dexter Original Sin -->
+<div class="card">
+<img src="https://thumb.febbox.com/thumb_dGh1bWIvMDM3LzM0Lzc0LzM3MzQ3NDYwXzE0NjM0NThfdGh1bWJfYmlnLmpwZz90PTE3NzIwMDQ2ODV8MTAwMHw3NQ__.png">
+<div class="info">
+<h2>Dexter: Original Sin</h2>
+<p><span class="label">Company:</span> Showtime</p>
+<p><span class="label">Producer:</span> Clyde Phillips</p>
+<p><span class="label">Main Cast:</span> Patrick Gibson, Christian Slater</p>
+<p><span class="label">Release:</span> 2024</p>
+<p><span class="label">Note:</span> Prequel exploring young Dexter Morgan.</p>
+</div>
+</div>
+
+<!-- Dexter New Blood & Resurrection (Auto Image Switch) -->
+<div class="card">
+<img id="dexterSwitch" src="https://thumb.febbox.com/thumb_dGh1bWIvMDM3LzM0Lzc0LzM3MzQ3NDEwXzE0NjM0NThfdGh1bWJfYmlnLmpwZz90PTE3NzIwMDQ3NTd8MTAwMHw3NQ__.png">
+<div class="info">
+<h2>Dexter: New Blood & Resurrection</h2>
+<p><span class="label">Company:</span> Showtime Networks</p>
+<p><span class="label">Producer:</span> Clyde Phillips</p>
+<p><span class="label">Main Cast:</span> Michael C. Hall</p>
+<p><span class="label">Release:</span> 2021 – 2025</p>
+<p><span class="label">Note:</span> Continuation and expansion of Dexter’s legacy.</p>
+</div>
+</div>
+
+<!-- Black Widow -->
+<div class="card">
+<img src="https://thumb.febbox.com/thumb_dGh1bWIvMDM3LzM0LzczLzM3MzQ3MzYzXzE0NjM0NThfdGh1bWJfYmlnLmpwZz90PTE3NzIwMDQ3ODh8MTAwMHw3NQ__.png">
+<div class="info">
+<h2>Black Widow</h2>
+<p><span class="label">Company:</span> Marvel Studios</p>
+<p><span class="label">Producer:</span> Kevin Feige</p>
+<p><span class="label">Main Cast:</span> Scarlett Johansson, Florence Pugh</p>
+<p><span class="label">Release:</span> 2021</p>
+<p><span class="label">Note:</span> Origin story of Natasha Romanoff.</p>
+</div>
+</div>
+
+<!-- Doogie -->
+<div class="card">
+<img src="https://thumb.febbox.com/thumb_dGh1bWIvMDM3LzM0Lzc0LzM3MzQ3NDkzXzE0NjM0NThfdGh1bWJfYmlnLmpwZz90PTE3NzIwMDQ4NDR8MTAwMHw3NQ__.png">
+<div class="info">
+<h2>Doogie Kameāloha, M.D.</h2>
+<p><span class="label">Company:</span> Disney+</p>
+<p><span class="label">Producer:</span> Kourtney Kang</p>
+<p><span class="label">Main Cast:</span> Peyton Elizabeth Lee</p>
+<p><span class="label">Release:</span> 2021 – 2023</p>
+<p><span class="label">Note:</span> Teen medical prodigy balancing life and responsibility.</p>
+</div>
+</div>
+
+<!-- Gifted -->
+<div class="card">
+<img src="https://thumb.febbox.com/thumb_dGh1bWIvMDM3LzM0Lzc1LzM3MzQ3NTM3XzE0NjM0NThfdGh1bWJfYmlnLmpwZz90PTE3NzIwMDQ4NzZ8MTAwMHw3NQ__.png">
+<div class="info">
+<h2>Gifted</h2>
+<p><span class="label">Company:</span> Fox Searchlight Pictures</p>
+<p><span class="label">Producer:</span> Karen Lunder</p>
+<p><span class="label">Main Cast:</span> Chris Evans, Mckenna Grace</p>
+<p><span class="label">Release:</span> 2017</p>
+<p><span class="label">Note:</span> A mathematically gifted girl raised by her uncle.</p>
+</div>
+</div>
+
+</div>
+
+<script>
+const images = [
+"https://thumb.febbox.com/thumb_dGh1bWIvMDM3LzM0Lzc0LzM3MzQ3NDEwXzE0NjM0NThfdGh1bWJfYmlnLmpwZz90PTE3NzIwMDQ3NTd8MTAwMHw3NQ__.png",
+"https://thumb.febbox.com/thumb_dGh1bWIvMDM3LzM0Lzc0LzM3MzQ3NDAwXzE0NjM0NThfdGh1bWJfYmlnLmpwZz90PTE3NzIwMDQ3MTZ8MTAwMHw3NQ__.png"
+];
+
+let index = 0;
+setInterval(() => {
+    index = (index + 1) % images.length;
+    document.getElementById("dexterSwitch").src = images[index];
+}, 15000);
+</script>
+
+</body>
+</html>
